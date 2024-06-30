@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+body{
+   
+      font-family: "DynaPuff";
+      
+      
+    } 
+header{
+background-color:background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+ 
+
+}
+header a img {
+    width: 60px;
+ 
+   
+   
+}
+header .sign-in {
+    
+   float: right;
+  padding: 1rem;
+
+}
+header .sign-in a {
+    color:// <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 400 to 700;
+    
+    
+
+}
+nav.stick {
+   padding: 2rem;
+   border: 2px solid red;
+   background-color:background-color: #FBAB7E;
+   background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+   text-align:center;
+   
+
+    
+
+
+
+}
+
+nav.beaner {
+    position: relative;
+}
+nav a {
+    margin: 2rem;
+    text-decoration: none;
+    padding:2rem;
+}
+   nav.beaner img{
+    width: 100%;
+  
+   
+
+   }
+   main.hero h1 {
+    background-color: chartreuse;
+    font-size: x-large;
+    color: cornflowerblue;
+    color: brown;
+
+   }
+   nav.beaner .hero{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+    border: 2px solid blue;
+   }
+   
+  
