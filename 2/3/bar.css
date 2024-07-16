@@ -7,12 +7,16 @@
 body{
    
       font-family: "DynaPuff";
+      margin: 3px;
+      flex-direction: column;
+     
       
       
     } 
 header{
 background-color:background-color: #D9AFD9;
 background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
  
 
 }
@@ -25,19 +29,28 @@ header a img {
 header .sign-in {
     
    float: right;
-  padding: 1rem;
+   padding: 1rem;
+   text-decoration: none;
 
 }
-header .sign-in a {
+header.sign-in a {
     color:// <uniquifier>: Use a unique and descriptive class name
-    // <weight>: Use a value from 400 to 700;
-    
-    
+    // <weight>: Use a value from 400 to 700;  
 
+}
+header a  :{
+
+    text-decoration: none;
+    margin: 8rem
+       
+}
+button:hover{
+    opacity: 0,8;
+    cursor: pointer;
 }
 nav.stick {
    padding: 2rem;
-   border: 2px solid red;
+   /* border: 2px solid red; */
    background-color:background-color: #FBAB7E;
    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
    text-align:center;
@@ -58,14 +71,14 @@ nav a {
     padding:2rem;
 }
    nav.beaner img{
-    width: 100%;
+    width: 80%;
   
    
 
    }
    main.hero h1 {
     background-color: chartreuse;
-    font-size: x-large;
+    font-size: medium;
     color: cornflowerblue;
     color: brown;
 
@@ -76,6 +89,7 @@ nav a {
     left: 0;
     color: red;
     border: 2px solid blue;
+    border-radius: 5px;
    }
    
   
