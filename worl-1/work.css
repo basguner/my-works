@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containerr{
+    /* position: relative; */
+}
+
+    .hero{
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 70%;
+        left: 40%;
+    
+}
+.btn-danger{
+    padding: 8rem 1 rem;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #dc3545;
+    border-color: #dc3545;
+}
+.baho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 8rem;
+}
+.baho img{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-color: #dc3545;
+    padding: 2rem;
+    text-align: center;
+}
+.baho p {
+    
+    /* border: 2px solid red; */
+    margin: 20px;
+
+    
+    }
+   .baho h1{
+    margin: 20px;
+   }
