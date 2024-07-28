@@ -49,6 +49,60 @@
  
  
 
- 
- 
- 
+
+
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+
+   }
+ .card{
+
+    box-sizing: border-box;
+   padding: 20px;
+
+
+ }
+ .about{
+    border: 2px solid red;
+ }
+ .about img{
+
+
+ }
+ .baho{
+
+    position: relative;
+ }
+ .bahoo img{
+    display: flex;
+    width: 250px;
+    height: 200px;
+  
+   
+    
+ }
+.neso{
+gap: 100px;
+display: flex;
+text-align: center;
+justify-content: center;
+border-radius: 50%;
+  
+
+}
+.ben{
+    border-radius: 50%;
+}
+  
+
+
+  
+
+
+
+
+   
